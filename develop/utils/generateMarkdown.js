@@ -12,8 +12,6 @@ function renderLicenseBadge(license) {}
 
 
 
-
-
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
@@ -22,11 +20,67 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-    return `# ${data.title}
 
-`;
-}
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(answers) {
+    return `
+    # ${answers.title}
+
+    # ${answers.project}
+
+    ## Description
+    ${answers.description}
+    
+    ## Motivation
+    ${answers.motivation}
+    
+    ## Problem
+    ${answers.problem}
+    
+    ## Table of Contents
+    ${answers.contents}
+    
+    ## Badge
+    ${answers.badge}
+    // Different method of adding to page
+    
+    ## Screenshot
+    ${answers.screenshot}
+    
+    ## Video
+    ${answers.video}
+    
+    ## Installation
+    ${answers.installation}
+    
+    ## Usage
+    ${answers.usage}
+    
+    ## Tests
+    ${answers.tests}
+    
+    ## Roadmap
+    ${answers.roadmap}
+    
+    ## Support
+    ${answers.support}
+    
+    ## Contribution
+    ${answers.contribution}
+    
+    ## Acknowledgment
+    ${answers.acknowledgment}
+    
+    ## Contact
+    ${answers.questions1}
+    ${answers.questions2}
+    
+    ## License
+    ${answers.license}
+    
+    ## Status
+    ${answers.status}
+    `
+};
 
 module.exports = generateMarkdown;
