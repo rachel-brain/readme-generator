@@ -23,63 +23,60 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-    return `
-    # ${answers.title}
+    return `# ${answers.title.toUpperCase()}
 
-    # ${answers.project}
-
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
     
-    ## Motivation
-    ${answers.motivation}
+## Motivation
+${answers.motivation}
     
-    ## Problem
-    ${answers.problem}
+## Problem
+${answers.problem}
     
-    ## Table of Contents
-    ${answers.contents}
+## Table of Contents
+${answers.contents}
     
-    ## Badge
-    ${answers.badge}
-    // Different method of adding to page
+## Badge
+${answers.badge}
+// Different method of adding to page
     
-    ## Screenshot
-    ${answers.screenshot}
+## Screenshot
+${answers.screenshot}
     
-    ## Video
-    ${answers.video}
+## Video
+${answers.video}
     
-    ## Installation
-    ${answers.installation}
+## Installation
+${answers.installation}
     
-    ## Usage
-    ${answers.usage}
+## Usage
+${answers.usage}
     
-    ## Tests
-    ${answers.tests}
+## Tests
+${answers.tests}
     
-    ## Roadmap
-    ${answers.roadmap}
+## Roadmap
+${answers.roadmap}
     
-    ## Support
-    ${answers.support}
+## Support
+${answers.support}
     
-    ## Contribution
-    ${answers.contribution}
+## Contribution
+${answers.contribution}
     
-    ## Acknowledgment
-    ${answers.acknowledgment}
+## Acknowledgment
+${answers.acknowledgment}
     
-    ## Contact
-    ${answers.questions1}
-    ${answers.questions2}
+## Contact
+${answers.questions1}
+${answers.questions2}
     
-    ## License
-    ${answers.license}
+## License
+${answers.license}
     
-    ## Status
-    ${answers.status}
+## Status
+${answers.status}
     `
 };
 
