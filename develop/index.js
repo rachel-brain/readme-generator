@@ -35,16 +35,6 @@ const questions = [{
         name: 'badge',
     },
     {
-        type: 'visual?',
-        message: 'Add a screenshot, if applicable.',
-        name: 'screenshot',
-    },
-    {
-        type: 'visual?',
-        message: 'Add a video.gif, if applicable.',
-        name: 'video',
-    },
-    {
         type: 'input',
         message: 'Describe how to install your application.',
         name: 'installation',
@@ -108,6 +98,9 @@ function init() {
         .then((answers) => {
             const fileName = 'README.md';
             const readmePageContent = generateMarkdown(answers);
+            // let chosenLicense = answers.license;
+            // localStorage.setItem('licenseLocalStorage', chosenLicense);
+            // console.log(chosenLicense);
 
             // Create a function to write README file
             fs.writeFile(fileName, readmePageContent, (err) => {

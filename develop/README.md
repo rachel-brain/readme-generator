@@ -1,55 +1,57 @@
-# PAGE GENERATOR
+# TITLE
+
+## Badge
+sdfgsdfg
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)')
+// Different method of adding to page
 
 ## Description
-fff
+sfdsagfsdfgsfg
     
 ## Motivation
-ddd
+dfgadfgadgagadfg
     
 ## Problem
-fff
+hjgdfhgjdfjfjhfgh
     
 ## Table of Contents
-fff
-    
-## Badge
-fff
-// Different method of adding to page
+sghsdgdsagsgdsfgsdgsdfgsdgsd
     
 ## Screenshot
-ddd
+// Add manually
     
 ## Video
-coming soon
+// Add manually
     
 ## Installation
-terminal
+sgfsdgfsdfg
     
 ## Usage
-d
+sgsdfgsdg
     
 ## Tests
-d
+sgsdgsdg
     
 ## Roadmap
-d
+sgfsdgsdfgsd
     
 ## Support
-d
+sdgdsfg
     
 ## Contribution
-d
+sgfdsdfgsdfg
     
 ## Acknowledgment
 none
     
 ## Contact
 rachel-brain
-rachel.brain@internode.on.net
-    
+
+
 ## License
- MIT (recommended)
-    
+ Apache License 2.0
+// Need to add link to page, too
+
 ## Status
-Testing phase
+
     
