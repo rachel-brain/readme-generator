@@ -1,57 +1,58 @@
-# TITLE
+# README GENERATOR
 
 ## Badge
-sdfgsdfg
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)')
+
 // Different method of adding to page
 
 ## Description
-sfdsagfsdfgsfg
+An app that quickly & easily creates a README.md file by presenting a number of prompts allowing the user to answer each one.
     
 ## Motivation
-dfgadfgadgagadfg
+To save time in drafting a README file as one is required for every project repo.
     
 ## Problem
-hjgdfhgjdfjfjhfgh
+It saves time & avoids missing an importnat aspect in the README file.
     
 ## Table of Contents
-sghsdgdsagsgdsfgsdgsdfgsdgsd
+Includes Installation, Usage, TEsts, Acknowledgment, Contact Details
     
 ## Screenshot
+
 // Add manually
     
-## Video
+## Video Instructions
+<iframe src="https://drive.google.com/file/d/1YsBMiwOW5LaTHsJT0jmLYIq7OE8b49V-/preview" width="640" height="480"></iframe>
 // Add manually
     
 ## Installation
-sgfsdgfsdfg
+Install inquirer first - "npm i inquirer" in the terminal.  Then type, "node index.js" in the terminal.
     
 ## Usage
-sgsdfgsdg
+The user will be given a number of prompts which he/she can answer or skip by pressing enter.
     
 ## Tests
-sgsdgsdg
+Multiple run-throughs of the app to test, including checking each license.
     
 ## Roadmap
-sgfsdgsdfgsd
+Saving some of the more repetitive responses would save the user more time.
     
 ## Support
-sdgdsfg
+Contact me with any queries.
     
 ## Contribution
-sgfdsdfgsdfg
+
     
 ## Acknowledgment
-none
+None.
     
 ## Contact
 rachel-brain
-
+rachel.brain@internode.on.net
 
 ## License
- Apache License 2.0
+ MIT (recommended)
 // Need to add link to page, too
 
 ## Status
-
+Live.
     

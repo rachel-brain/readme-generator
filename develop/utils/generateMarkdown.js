@@ -1,11 +1,15 @@
+{
+    /* <iframe src="https://drive.google.com/file/d/1YsBMiwOW5LaTHsJT0jmLYIq7OE8b49V-/preview" width="640" height="480"></iframe> */
+}
+
+
 // Create a function that returns a license badge based on which license is passed in; if there is no license, return an empty string.
 
-// const generateMarkdown = require('./utils/generateMarkdown');
+// const getAnswers = require('../index.js');
 
-const answers = require('../index.js');
-// let mylicense = chosenLicense;
+// let myLicense = chosenLicense;
 
-let myLicense = ' MIT (recommended)';
+// let myLicense = ' MIT (recommended)';
 // let myLicense = ' Apache License 2.0';
 // let myLicense = ' ISC License';
 // let myLicense = ' GNU GPLv3';
@@ -29,18 +33,18 @@ function renderLicenseBadge(myLicense) {
     //     answers.badge = '';
     // };
 
-    if (myLicense === ' MIT (recommended)') {
-        then(answers.badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)');
-    } else if (myLicense === ' Apache License 2.0') {
-        then(answers.badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)');
-    } else if (myLicense === ' ISC License') {
-        then(answers.badge = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)');
-    } else if (myLicense === ' GNU GPLv3') {
-        then(answers.badge = '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)');
-    } else {
-        answers.badge = '';
-    };
-    console.log(answers.badge);
+    // if (myLicense === ' MIT (recommended)') {
+    //     then(answers.badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)');
+    // } else if (myLicense === ' Apache License 2.0') {
+    //     then(answers.badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)');
+    // } else if (myLicense === ' ISC License') {
+    //     then(answers.badge = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)');
+    // } else if (myLicense === ' GNU GPLv3') {
+    //     then(answers.badge = '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)');
+    // } else {
+    //     answers.badge = '';
+    // };
+    // console.log(answers.badge);
 
     // if (answers.license === ' MIT (recommended)') {
     //     then(answers.badge = '[![License: MIT](https://img.shields.io/npm/l/readme-generator.svg)](https://opensource.org/licenses/MIT)');
@@ -108,7 +112,7 @@ ${answers.contents}
 ## Screenshot
 // Add manually
     
-## Video
+## Video Instructions
 // Add manually
     
 ## Installation
@@ -145,6 +149,7 @@ ${answers.status}
     `
 };
 
+// getAnswers();
 renderLicenseBadge();
 renderLicenseLink();
 renderLicenseSection();

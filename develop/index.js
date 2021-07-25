@@ -98,8 +98,7 @@ function init() {
         .then((answers) => {
             const fileName = 'README.md';
             const readmePageContent = generateMarkdown(answers);
-            // let chosenLicense = answers.license;
-            // localStorage.setItem('licenseLocalStorage', chosenLicense);
+            // const chosenLicense = answers.license;
             // console.log(chosenLicense);
 
             // Create a function to write README file
