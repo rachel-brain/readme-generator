@@ -1,18 +1,18 @@
 # README FILE GENERATOR
-A professional README.md file generator created by using a command-line application.
+A professional README.md file generator created by using a command line application.
 
 
 ## Badge
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-An app that quickly and easily creates a high quality README file by using a command-line application to present a number of prompts for the user to answer which then generates one. This allows the project creator to devote more time to working on the project.
+An app that quickly and easily creates a high quality README file by using a command line application to present a number of prompts for the user to answer which then generates one. This allows the project creator to devote more time to working on the project.
     
 ## Motivation
 To save time in drafting a README file as one is required for every project repo.
     
 ## Problem
-It saves time and avoids missing an important aspect to the README file.
+It saves time and avoids missing an important aspect of the README file.
 
 ## User Story
 ```md
@@ -22,12 +22,12 @@ SO THAT I can quickly create a professional README for a new project
 ```
 
 ## Screenshot
-// Add screenshot manually
+screenshot.JPG
     
 ## Video Instructions
-<iframe src="https://drive.google.com/file/d/1YsBMiwOW5LaTHsJT0jmLYIq7OE8b49V-/preview" width="640" height="480"></iframe>
-// Add link manually
-// Add video manually
+https://drive.google.com/file/d/1CQyXKJYK_oyPBgV5Ru2x6FqpnBWts3AE/view
+
+walkthrough-of-readme-generator.gif
     
 ## Installation
 The application will be invoked by typing the following command in the terminal to install inquirer:
@@ -36,7 +36,7 @@ The application will be invoked by typing the following command in the terminal 
 npm i inquirer
 ```
 
-Then, typing the following command in the terminal will initiate the prompts to collate the ionformation required in the README file:
+Then, typing the following command in the terminal will initiate the prompts to collate the information required in the README file:
 
 ```bash
 node index.js
@@ -64,17 +64,19 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Future Upgrades
-Saving some of the more repetitive responses (such as chosen License and Contact details) would save more time for the user.
+Saving some of the more repetitive responses (such as chosen License and Contact details) would save more time for the developer.
 
 ## Contact
 https://github.com/rachel-brain
+
 rachel.brain@internode.on.net
 
-## GitHib Url
+## GitHib URL
 https://github.com/rachel-brain/readme-generator
 
 ## License
-MIT (recommended)
+MIT
+
 https://opensource.org/licenses/MIT
 
 ## Status

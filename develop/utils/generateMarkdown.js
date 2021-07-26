@@ -65,11 +65,17 @@ ${answers.problem}
 
 ## Table of Contents
 [User Story](https://github.com/rachel-brain/readme-generator#user-story)
+
 [Screenshot](https://github.com/rachel-brain/readme-generator#screenshot)
+
 [Installation](https://github.com/rachel-brain/readme-generator#installation)
+
 [Usage](https://github.com/rachel-brain/readme-generator#usage)
+
 [Contact](https://github.com/rachel-brain/readme-generator#contact)
+
 [GitHub URL](https://github.com/rachel-brain/readme-generator#github-url)
+
 
 ## User Story
 ${answers.story}
