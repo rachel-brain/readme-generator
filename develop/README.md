@@ -2,57 +2,68 @@
 
 ## Badge
 
-// Different method of adding to page
+// Still to debug the code to render the badge
 
 ## Description
-An app that quickly & easily creates a README.md file by presenting a number of prompts allowing the user to answer each one.
+An app that quickly and easilty creates a README.md file with responses from a number of prompts
     
 ## Motivation
-To save time in drafting a README file as one is required for every project repo.
+Saving time
     
 ## Problem
-It saves time & avoids missing an importnat aspect in the README file.
-    
+SAving time and avoiding missing important aspects of the README file
+
 ## Table of Contents
-Includes Installation, Usage, TEsts, Acknowledgment, Contact Details
+[User Story](https://github.com/rachel-brain/readme-generator#user-story)
+[Screenshot](https://github.com/rachel-brain/readme-generator#screenshot)
+[Installation](https://github.com/rachel-brain/readme-generator#installation)
+[Usage](https://github.com/rachel-brain/readme-generator#usage)
+[Contact](https://github.com/rachel-brain/readme-generator#contact)
+[GitHub URL](https://github.com/rachel-brain/readme-generator#github-url)
+
+## User Story
+
     
 ## Screenshot
-
-// Add manually
+// Add screenshot manually
     
 ## Video Instructions
-<iframe src="https://drive.google.com/file/d/1YsBMiwOW5LaTHsJT0jmLYIq7OE8b49V-/preview" width="640" height="480"></iframe>
-// Add manually
+// Add link manually
+// Add video manually
     
 ## Installation
-Install inquirer first - "npm i inquirer" in the terminal.  Then type, "node index.js" in the terminal.
+type node index.js in the terminal
     
 ## Usage
-The user will be given a number of prompts which he/she can answer or skip by pressing enter.
+
     
 ## Tests
-Multiple run-throughs of the app to test, including checking each license.
+
     
-## Roadmap
-Saving some of the more repetitive responses would save the user more time.
+## Future Upgrades
+
     
 ## Support
-Contact me with any queries.
+
     
 ## Contribution
 
     
 ## Acknowledgment
-None.
+None
     
 ## Contact
 rachel-brain
-rachel.brain@internode.on.net
+
+
+## GitHub Url
+
 
 ## License
  MIT (recommended)
-// Need to add link to page, too
+// Still to debug the code to render the link to the chosen license
+// Still to debug the code to render the text of the license
 
 ## Status
-Live.
+Live
     

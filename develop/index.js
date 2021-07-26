@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
+// const renderLicenseBadge = require('./utils/generateMarkdown');
 
 // Array of questions for user input
 const questions = [{
@@ -26,8 +27,8 @@ const questions = [{
     },
     {
         type: 'input',
-        message: 'Provide a Table of Contents.',
-        name: 'contents',
+        message: 'Define the User Story.',
+        name: 'story',
     },
     {
         type: 'badge?',
@@ -52,7 +53,7 @@ const questions = [{
     {
         type: 'input',
         message: 'List any ideas for future releases or upgrades to the application.',
-        name: 'roadmap',
+        name: 'upgrades',
     },
     {
         type: 'input',
@@ -71,13 +72,18 @@ const questions = [{
     },
     {
         type: 'input',
-        message: 'Provide your GitHub username.',
+        message: 'Provide your GitHub profile address.',
         name: 'questions1',
     },
     {
         type: 'input',
         message: 'Provide your email address.',
         name: 'questions2',
+    },
+    {
+        type: 'input',
+        message: 'What is the URL for the GitHub repo?',
+        name: 'githubrepo',
     },
     {
         type: 'checkbox',
@@ -98,13 +104,13 @@ function init() {
         .then((answers) => {
             const fileName = 'README.md';
             const readmePageContent = generateMarkdown(answers);
-            // const chosenLicense = answers.license;
-            // console.log(chosenLicense);
+            // const chosenLicense = renderLicenseBadge(answers.license);
 
             // Create a function to write README file
             fs.writeFile(fileName, readmePageContent, (err) => {
                 err ? console.log(err) : console.log('Successfully created README')
             });
+            // console.log(chosenLicense);
         });
 }
 
